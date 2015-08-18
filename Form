@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<center>
+
+<h1>Sign Up</h1>
+<p>Welcome to ASEAN Community Portal</p>
+<br>
+<form>
+First name:<br>
+<input type="text" name="firstname">
+<br>
+Last name:<br>
+<input type="text" name="lastname">
+<br>
+Email:<br>
+<input type ="text" name="email">
+<br>
+City:<br>
+<input type ="city" name="city">
+<br>
+Country
+
+</form>
+</center>
+</body>
+</html>
