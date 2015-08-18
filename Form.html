@@ -4,12 +4,18 @@
 <title>Page Title</title>
 </head>
 <body>
+<body bgcolor="#B9FFC4">
 <center>
 
-<h1>Sign Up</h1>
-<p>Welcome to ASEAN Community Portal</p>
+<h1><font face="verdana" color="black">Welcome to ASEAN Community</font></h1>
 <br>
 <form>
+username:<br>
+<input type="text" name="username">
+<br>
+password:<br>
+<input type="password" name="password">
+<br>
 First name:<br>
 <input type="text" name="firstname">
 <br>
@@ -22,7 +28,25 @@ Email:<br>
 City:<br>
 <input type ="city" name="city">
 <br>
-Country
+Country:<br>
+<select name="Country">
+<option value"Brunei"> Brunei Darussalam </option>
+<option value"Cambodia">Cambodia</option>
+<option value"Indonesia">Indonesia</option>
+<option value"Laos">Laos</option>
+<option value"Malaysia">Malaysia</option>
+<option value"Myanmar">Myanmar</option>
+<option value"Philippines">Philippines</option>
+<option value"Singapore">Singapore</option>
+<option value"Thailand">Thailand</option>
+<option value"Vietnam">Vietnam</option>
+</select>
+<br>
+Zipcode:<br>
+<input type ="text" name="Zip">
+<br>
+<br>
+<input type="button" onclick="alert('Click')" value="Submit">
 
 </form>
 </center>
